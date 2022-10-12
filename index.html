@@ -4,50 +4,75 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mohaimin-Blog</title>
+    <title>Bio-data Page</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>
-      <header class="heading" id="home">
-        <h1>This is heading.</h1>
-        <div class="navbar">
-          <ul>
-            <a href="#home"><li>Home</li></a>
-            <a href="about.html"><li>About</li></a>
-            <a href="blog.html"><li>Blogs</li></a>
-            <a href="contact.html"><li>Contact</li></a>
-          </ul>
-        </div>
-      </header>
-      <section>
-        <h4>This is main heading</h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-          possimus.
-        </p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+    
+    <main class="container">
+      <img class="logo" src="./image/dev-ed-wave.png" alt="Image">
+      <br>
+      <h1> Bio-Data of Mohaimin</h1>
+      <section class="min_container">
+
+        <label for="name">Name :</label>
+        <input type="text" id="name" value="I'm Mohaimin Islam"><br>
+
+        <label for="bio">Bio :</label>
+        <input type="text" id="bio" value="I'm Learning MERN Stack Development"><br>
+
+        <label for="address">Address :</label>
+        <input type="text" id="address" value="Jessore, Khulna Bangladesh"><br>
+
+        <label for="age">Age :</label>
+        <input type="text" id="age" value="19 Years Old"><br>
+
+        <label for="date">Birth Date :</label>
+        <input type="date" id="date"><br>
       </section>
-      <main>
-        <div class="main-section">
-          <h4>This is a demo</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur,
-            voluptatum labore. Non, cupiditate eius velit provident iusto
-            reiciendis. Explicabo animi minima porro ex nihil neque doloremque
-            quis sed quos suscipit.
-          </p>
-          <img src="./image/lighting.png" alt="Lighting image" />
-        </div>
-      </main>
-      <footer>
-        <h6>this is footer</h6>
-        <ul>
-          <a href="#home"><li>Home</li></a>
-          <a href="about.html"><li>About</li></a>
-          <a href="blogs.html"><li>Blogs</li></a>
-          <a href="contact.html"><li>Contact</li></a>
-        </ul>
-      </footer>
-    </div>
+      <!-- Table of Educational Information -->
+      <section>
+        <h1>My Education Biodata </h1>
+        <table>
+          <thead>
+            <tr>
+              <th>Class Name</th>
+              <th>Years</th>
+              <th>GPA</th>
+            </tr>
+           </thead>
+           <!-- table body  -->
+           <tbody>
+             <tr>
+               <td>PSC</td>
+               <td>2015</td>
+               <td>A+</td>
+             </tr>
+             <tr>
+               <td>JSC</td>
+               <td>2018</td>
+               <td>A+</td>
+             </tr>
+             <tr>
+               <td>SSC</td>
+               <td>2020</td>
+               <td>A</td>
+             </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <h1>Navigate Our Another Page</h1>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact</a>
+      <a href="blog.html">Blog</a>
+    </footer>
   </body>
 </html>
