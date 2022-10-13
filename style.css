@@ -88,6 +88,7 @@ button{
     background-color: rebeccapurple;
     font-size: 20px;
     color: #fff;
+    cursor: pointer;
 }
 textarea{
     max-width: 400px;
@@ -97,4 +98,7 @@ textarea{
     outline: none;
     padding: 10px;
     font-size: 18px;
+}
+article a{
+    color: red;
 }
